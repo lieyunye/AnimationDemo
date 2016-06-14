@@ -84,7 +84,7 @@ static CGFloat mouseValue = 1.5;
     [_faildView addSubview:_clickButton];
     _clickButton.titleLabel.font = [UIFont systemFontOfSize:12];
     _clickButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-
+    [_clickButton addTarget:self action:@selector(clickAction) forControlEvents:UIControlEventTouchUpInside];
     CGRect titleRect = _clickButton.titleLabel.frame; //文本控件在按钮中的frame值。
     CGRect imageRect = _clickButton.imageView.frame;  //图片控件在按钮中的frame值。
     CGFloat padding = 15; //用于指定文本和图片的间隔值。
@@ -101,6 +101,13 @@ static CGFloat mouseValue = 1.5;
                                       (selfWidth /2 - imageRect.origin.x - imageRect.size.width /2),
                                       -((selfHeight - totalHeight)/2 - imageRect.origin.y),
                                       -(selfWidth /2 - imageRect.origin.x - imageRect.size.width /2));
+}
+
+- (void)clickAction
+{
+    if ([_delegate respondsToSelector:@selector(click2Retry)]) {
+        [_delegate click2Retry];
+    }
 }
 
 - (void)showFialedView:(BOOL)show
