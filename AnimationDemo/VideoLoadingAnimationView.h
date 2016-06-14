@@ -11,5 +11,6 @@
 @interface VideoLoadingAnimationView : UIView
 - (void)startAnimation;
 - (void)stopAnimation;
+- (void)showFialedView:(BOOL)show;
 
 @end
