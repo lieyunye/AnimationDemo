@@ -11,9 +11,10 @@
 		6B2E00AD1D0ED83300DB6B75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E00AC1D0ED83300DB6B75 /* AppDelegate.m */; };
 		6B2E00B01D0ED83300DB6B75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E00AF1D0ED83300DB6B75 /* ViewController.m */; };
 		6B2E00B31D0ED83300DB6B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E00B11D0ED83300DB6B75 /* Main.storyboard */; };
-		6B2E00B51D0ED83300DB6B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E00B41D0ED83300DB6B75 /* Assets.xcassets */; };
 		6B2E00B81D0ED83300DB6B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2E00B61D0ED83300DB6B75 /* LaunchScreen.storyboard */; };
 		6B2E00C11D0ED88400DB6B75 /* VideoLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E00C01D0ED88400DB6B75 /* VideoLoadingAnimationView.m */; };
+		6B4F9FDF1D17D60A0061B753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F9FDE1D17D60A0061B753 /* Assets.xcassets */; };
+		6BE0D01E1D102E26006BA634 /* DataLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0D01D1D102E26006BA634 /* DataLoadingAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +25,13 @@
 		6B2E00AE1D0ED83300DB6B75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6B2E00AF1D0ED83300DB6B75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B2E00B21D0ED83300DB6B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B2E00B41D0ED83300DB6B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2E00B71D0ED83300DB6B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B2E00B91D0ED83300DB6B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B2E00BF1D0ED88400DB6B75 /* VideoLoadingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoLoadingAnimationView.h; sourceTree = "<group>"; };
 		6B2E00C01D0ED88400DB6B75 /* VideoLoadingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoLoadingAnimationView.m; sourceTree = "<group>"; };
+		6B4F9FDE1D17D60A0061B753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE0D01C1D102E26006BA634 /* DataLoadingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLoadingAnimationView.h; sourceTree = "<group>"; };
+		6BE0D01D1D102E26006BA634 /* DataLoadingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLoadingAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +64,19 @@
 		6B2E00A71D0ED83300DB6B75 /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6B4F9FDE1D17D60A0061B753 /* Assets.xcassets */,
 				6B2E00AB1D0ED83300DB6B75 /* AppDelegate.h */,
 				6B2E00AC1D0ED83300DB6B75 /* AppDelegate.m */,
 				6B2E00AE1D0ED83300DB6B75 /* ViewController.h */,
 				6B2E00AF1D0ED83300DB6B75 /* ViewController.m */,
 				6B2E00B11D0ED83300DB6B75 /* Main.storyboard */,
-				6B2E00B41D0ED83300DB6B75 /* Assets.xcassets */,
 				6B2E00B61D0ED83300DB6B75 /* LaunchScreen.storyboard */,
 				6B2E00B91D0ED83300DB6B75 /* Info.plist */,
 				6B2E00A81D0ED83300DB6B75 /* Supporting Files */,
 				6B2E00BF1D0ED88400DB6B75 /* VideoLoadingAnimationView.h */,
 				6B2E00C01D0ED88400DB6B75 /* VideoLoadingAnimationView.m */,
+				6BE0D01C1D102E26006BA634 /* DataLoadingAnimationView.h */,
+				6BE0D01D1D102E26006BA634 /* DataLoadingAnimationView.m */,
 			);
 			path = AnimationDemo;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 				TargetAttributes = {
 					6B2E00A41D0ED83300DB6B75 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H6R564GX2N;
 					};
 				};
 			};
@@ -142,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B2E00B81D0ED83300DB6B75 /* LaunchScreen.storyboard in Resources */,
-				6B2E00B51D0ED83300DB6B75 /* Assets.xcassets in Resources */,
+				6B4F9FDF1D17D60A0061B753 /* Assets.xcassets in Resources */,
 				6B2E00B31D0ED83300DB6B75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +162,7 @@
 			files = (
 				6B2E00B01D0ED83300DB6B75 /* ViewController.m in Sources */,
 				6B2E00AD1D0ED83300DB6B75 /* AppDelegate.m in Sources */,
+				6BE0D01E1D102E26006BA634 /* DataLoadingAnimationView.m in Sources */,
 				6B2E00C11D0ED88400DB6B75 /* VideoLoadingAnimationView.m in Sources */,
 				6B2E00AA1D0ED83300DB6B75 /* main.m in Sources */,
 			);
@@ -271,10 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lieyunye.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -282,10 +292,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lieyunye.AnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -308,6 +321,7 @@
 				6B2E00BE1D0ED83300DB6B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
